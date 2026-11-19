@@ -96,11 +96,11 @@ john --show ~/W3-PM1/pdf_hash.txt
 | Screenshot | Description |
 |---|---|
 | [Screenshot 1](Module1/1.Screenshot(PDF1).png) | PDF 1 practical evidence |
-| [Screenshot 2](./2.Screenshot%28PDF1%29.png) | PDF 1 additional evidence |
-| [Screenshot 3](./3.Screenshot%28PDF2%29.png) | PDF 2 practical evidence |
-| [Screenshot 4](./4.Screenshot%28PDF2%29.png) | PDF 2 additional evidence |
-| [Screenshot 5](./5.Screenshot%28PDF3%29.png) | PDF 3 practical evidence |
-| [Output 1](./1.Output%20of%20PDF%201.png) | PDF 1 output |
+| [Screenshot 2](Module1/2.Screenshot(PDF1).png) | PDF 1 practical evidence |
+| [Screenshot 3](Module1/3.Screenshot(PDF2).png) | PDF 2 additional evidence |
+| [Screenshot 4](Module1/4.Screenshot(PDF2).png) | PDF 2 practical evidence |
+| [Screenshot 5](Module1/5.Screenshot(PDF3).png) | PDF 3 practical evidence |
+| [Output 1](OUTPUT/1.Output of PDF 1.png) | PDF 1 output |
 | [Output 2](./2.Output%20of%20PDF2.png) | PDF 2 output |
 | [Output 3](./3.Output%20of%20PDF3.png) | PDF 3 output |
 
