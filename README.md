@@ -101,8 +101,8 @@ john --show ~/W3-PM1/pdf_hash.txt
 | [Screenshot 4](Module1/4.Screenshot(PDF2).png) | PDF 2 practical evidence |
 | [Screenshot 5](Module1/5.Screenshot(PDF3).png) | PDF 3 practical evidence |
 | [Output 1](OUTPUT/1.Output of PDF 1.png) | PDF 1 output |
-| [Output 2](./2.Output%20of%20PDF2.png) | PDF 2 output |
-| [Output 3](./3.Output%20of%20PDF3.png) | PDF 3 output |
+| [Output 2](OUTPUT/2.Output of PDF2.png) | PDF 2 output |
+| [Output 3](OUTPUT/3.Output of PDF3.png) | PDF 3 output |
 
 ---
 
@@ -120,9 +120,9 @@ The following screenshots document the practical work:
 
 | Screenshot | Description |
 |---|---|
-| [Screenshot 6](./6.screenshot%28NW%20Tools%29.png) | NetworkWalks Tools practical evidence |
-| [Screenshot 7](./7.Screenhot%28NW%20Tools%29.png) | Additional practical evidence |
-| [Screenshot 8](./8.screenshot%28NW%20tools%29.png) | Practical output |
+| [Screenshot 6](Module2/6.screenshot(NW Tools).png) | NetworkWalks Tools practical evidence |
+| [Screenshot 7](Module2/7.Screenhot(NW Tools).png) | Additional practical evidence |
+| [Screenshot 8](Module2/8.screenshot(NW tools).png) | Practical output |
 
 *Add the exact tool names, commands, and observations here after documenting the corresponding exercise.*
 
