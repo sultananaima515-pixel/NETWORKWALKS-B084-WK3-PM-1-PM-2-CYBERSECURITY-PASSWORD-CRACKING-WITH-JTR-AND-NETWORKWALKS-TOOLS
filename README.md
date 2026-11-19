@@ -27,18 +27,18 @@ All exercises were performed for educational purposes using authorized training 
 - Understand dictionary-based password auditing.
 - Extract password hashes from password-protected PDF files.
 - Use wordlists such as RockYou for authorized password auditing.
-- Explore password-cracking tools introduced by NetworkWalks.
+- Learn to use the NetworkWalks Hash Calculator and Password Cracker.
 - Understand the importance of strong passwords and secure password storage.
 
 ---
 
-## W3-PM1: Password Cracking with John the Ripper
+# W3-PM1: Password Cracking with John the Ripper
 
-### 1. Introduction
+## 1. Introduction
 
-John the Ripper is an open-source password security auditing tool. It tests candidate passwords against extracted password hashes to determine whether a password can be recovered.
+John the Ripper (JTR) is an open-source password security auditing tool. It tests candidate passwords against extracted password hashes to determine whether a password can be recovered.
 
-### 2. Tools Used
+## 2. Tools Used
 
 | Tool | Purpose |
 |---|---|
@@ -48,7 +48,7 @@ John the Ripper is an open-source password security auditing tool. It tests cand
 | RockYou | Dictionary wordlist |
 | Terminal | Executing commands |
 
-### 3. Practical Steps
+## 3. Practical Steps
 
 **Step 1: Verify John the Ripper**
 
@@ -100,7 +100,7 @@ john --wordlist=/usr/share/wordlists/rockyou.txt ~/W3-PM1/pdf_hash.txt
 john --show ~/W3-PM1/pdf_hash.txt
 ```
 
-### 4. Evidence – W3-PM1
+## 4. Evidence – W3-PM1
 
 | Screenshot | Description |
 |---|---|
@@ -115,25 +115,45 @@ john --show ~/W3-PM1/pdf_hash.txt
 
 ---
 
-## W3-PM2: Password Cracking with NetworkWalks Tools
+# W3-PM2: Password Cracking with NetworkWalks Tools
 
-### 1. Introduction
+## 1. Introduction
 
-This practical module focuses on learning and using the password-cracking tools introduced by NetworkWalks.
+This practical module focuses on using the NetworkWalks Hash Calculator and Password Cracker tools to perform password-cracking exercises on a password-protected PDF file.
 
-The exercise provides practical exposure to password auditing and helps develop an understanding of password security.
+The task was performed on a Windows laptop using the training PDF provided for the internship.
 
-### 2. Practical Activities
+## 2. Tools Used
 
-The following screenshots are intended to document the practical work:
+| Tool | Purpose |
+|---|---|
+| Windows Laptop | Environment for running NetworkWalks tools |
+| NetworkWalks Hash Calculator | Calculating the hash value of the provided PDF file |
+| NetworkWalks Password Cracker | Performing password-cracking exercises |
+| My Locked PDF1.pdf | Password-protected training file |
+
+## 3. Practical Task
+
+**Task:** Crack the password of the provided PDF file (`My Locked PDF1.pdf`) using the NetworkWalks Hash Calculator and Password Cracker tools on a Windows laptop.
+
+## 4. Practical Workflow
+
+1. Open the NetworkWalks Hash Calculator on Windows.
+2. Select the provided `My Locked PDF1.pdf` file.
+3. Calculate and obtain the required hash value.
+4. Open the NetworkWalks Password Cracker.
+5. Provide the required hash or input according to the tool's instructions.
+6. Select the appropriate password-cracking method and start the process.
+7. Observe the result and record whether the password was recovered.
+8. Capture screenshots as practical evidence.
+
+## 5. Evidence – W3-PM2
 
 | Screenshot | Description |
 |---|---|
 | [Screenshot 6](Module2/6.screenshot%28NW%20Tools%29.png) | NetworkWalks Tools practical evidence |
 | [Screenshot 7](Module2/7.Screenhot%28NW%20Tools%29.png) | Additional practical evidence |
-| [Screenshot 8](Module2/8.screenshot%28NW%20tools%29.png) | Practical output |
-
-**Note:** Add the exact tool names, commands, and observations after completing and verifying the corresponding exercise.
+| [Screenshot 8](Module2/8.screenshot%28NW%20tools%29.png) | Password-cracking output |
 
 ---
 
@@ -146,18 +166,22 @@ Through these practical exercises, I gained experience in:
 3. Extracting PDF password hashes using pdf2john.
 4. Working with the RockYou wordlist.
 5. Performing dictionary-based password auditing.
-6. Understanding the importance of password complexity.
-7. Documenting cybersecurity practical activities with terminal evidence.
+6. Using the NetworkWalks Hash Calculator.
+7. Understanding the workflow of the NetworkWalks Password Cracker.
+8. Learning the importance of password complexity and secure password storage.
+9. Documenting cybersecurity practical activities with screenshots and terminal evidence.
 
 ---
 
 ## Tools and Technologies
 
 - Kali Linux
-- John the Ripper
+- Windows 11
+- John the Ripper (JTR)
 - pdf2john
 - RockYou Wordlist
-- NetworkWalks Password-Cracking Tools
+- NetworkWalks Hash Calculator
+- NetworkWalks Password Cracker
 
 ---
 
