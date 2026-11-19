@@ -4,7 +4,8 @@
 
 **Program:** Cybersecurity Internship – NetworkWalks  
 **Batch:** B084  
-**Week:** 03  
+**Week:** 03
+
 **Practical Modules:**
 - W3-PM1: Password Cracking with John the Ripper (JTR)
 - W3-PM2: Password Cracking with NetworkWalks Tools
@@ -15,18 +16,18 @@
 
 This repository documents the practical activities completed during Week 3 of the NetworkWalks Cybersecurity Internship.
 
-The main focus was learning about password security, password hash extraction, dictionary-based password auditing, and practical password-cracking tools.
+The main focus is password security, password hash extraction, dictionary-based password auditing, and practical password-cracking tools.
 
-All exercises were performed for educational purposes using training files and authorized lab materials.
+All exercises were performed for educational purposes using authorized training materials.
 
 ## Learning Objectives
 
 - Understand password hashing and password security.
-- Learn the basic working principles of John the Ripper.
+- Learn the working principles of John the Ripper.
 - Understand dictionary-based password auditing.
-- Learn how to extract password hashes from password-protected PDF files.
+- Extract password hashes from password-protected PDF files.
 - Use wordlists such as RockYou for authorized password auditing.
-- Explore the password-cracking tools introduced by NetworkWalks.
+- Explore password-cracking tools introduced by NetworkWalks.
 - Understand the importance of strong passwords and secure password storage.
 
 ---
@@ -55,37 +56,45 @@ John the Ripper is an open-source password security auditing tool. It tests cand
 john --version
 ```
 
-**Step 2: Locate the PDF training file**
+**Step 2: Create a working directory**
+
+```bash
+mkdir -p ~/W3-PM1
+cd ~/W3-PM1
+```
+
+**Step 3: Locate the PDF training files**
 
 ```bash
 ls -lh /media/sf_Shared_file/
 ```
 
-**Step 3: Extract the PDF hash**
+**Step 4: Extract the PDF hash**
 
 ```bash
 pdf2john "/media/sf_Shared_file/My Locked PDF1.pdf" > ~/W3-PM1/pdf_hash.txt
 ```
 
-**Step 4: Verify the extracted hash**
+**Step 5: Verify the extracted hash**
 
 ```bash
+ls -lh ~/W3-PM1/pdf_hash.txt
 cat ~/W3-PM1/pdf_hash.txt
 ```
 
-**Step 5: Check the RockYou wordlist**
+**Step 6: Check the RockYou wordlist**
 
 ```bash
 ls -lh /usr/share/wordlists/rockyou.txt
 ```
 
-**Step 6: Perform dictionary-based password auditing**
+**Step 7: Perform dictionary-based password auditing**
 
 ```bash
 john --wordlist=/usr/share/wordlists/rockyou.txt ~/W3-PM1/pdf_hash.txt
 ```
 
-**Step 7: Display the result**
+**Step 8: Display the result**
 
 ```bash
 john --show ~/W3-PM1/pdf_hash.txt
@@ -95,14 +104,14 @@ john --show ~/W3-PM1/pdf_hash.txt
 
 | Screenshot | Description |
 |---|---|
-| [Screenshot 1](Module1/1.Screenshot(PDF1).png) | PDF 1 practical evidence |
-| [Screenshot 2](Module1/2.Screenshot(PDF1).png) | PDF 1 practical evidence |
-| [Screenshot 3](Module1/3.Screenshot(PDF2).png) | PDF 2 additional evidence |
-| [Screenshot 4](Module1/4.Screenshot(PDF2).png) | PDF 2 practical evidence |
-| [Screenshot 5](Module1/5.Screenshot(PDF3).png) | PDF 3 practical evidence |
-| [Output 1](OUTPUT/1.Output of PDF 1.png) | PDF 1 output |
-| [Output 2](OUTPUT/2.Output of PDF2.png) | PDF 2 output |
-| [Output 3](OUTPUT/3.Output of PDF3.png) | PDF 3 output |
+| [Screenshot 1](Module1/1.Screenshot%28PDF1%29.png) | PDF 1 practical evidence |
+| [Screenshot 2](Module1/2.Screenshot%28PDF1%29.png) | PDF 1 additional evidence |
+| [Screenshot 3](Module1/3.Screenshot%28PDF2%29.png) | PDF 2 practical evidence |
+| [Screenshot 4](Module1/4.Screenshot%28PDF2%29.png) | PDF 2 additional evidence |
+| [Screenshot 5](Module1/5.Screenshot%28PDF3%29.png) | PDF 3 practical evidence |
+| [Output 1](OUTPUT/1.Output%20of%20PDF%201.png) | PDF 1 output |
+| [Output 2](OUTPUT/2.Output%20of%20PDF2.png) | PDF 2 output |
+| [Output 3](OUTPUT/3.Output%20of%20PDF3.png) | PDF 3 output |
 
 ---
 
@@ -116,15 +125,15 @@ The exercise provides practical exposure to password auditing and helps develop 
 
 ### 2. Practical Activities
 
-The following screenshots document the practical work:
+The following screenshots are intended to document the practical work:
 
 | Screenshot | Description |
 |---|---|
-| [Screenshot 6](Module2/6.screenshot(NW Tools).png) | NetworkWalks Tools practical evidence |
-| [Screenshot 7](Module2/7.Screenhot(NW Tools).png) | Additional practical evidence |
-| [Screenshot 8](Module2/8.screenshot(NW tools).png) | Practical output |
+| [Screenshot 6](Module2/6.screenshot%28NW%20Tools%29.png) | NetworkWalks Tools practical evidence |
+| [Screenshot 7](Module2/7.Screenhot%28NW%20Tools%29.png) | Additional practical evidence |
+| [Screenshot 8](Module2/8.screenshot%28NW%20tools%29.png) | Practical output |
 
-*Add the exact tool names, commands, and observations here after documenting the corresponding exercise.*
+**Note:** Add the exact tool names, commands, and observations after completing and verifying the corresponding exercise.
 
 ---
 
